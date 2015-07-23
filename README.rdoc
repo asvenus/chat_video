@@ -1,17 +1,1 @@
-== Video chatting using Open tokbox api
-
-This is sample rails 3.2.9 application which uses tokbox(http://www.tokbox.com/) api for videochatting functionality. Also you can see the live demo of the application here http://tokboxvideochat.herokuapp.com/
-
-
-== Steps to set up the application
-
-1. Clone this codebase to your local machine
-
-2. run bundle install
-
-3. create and migrate database
-
-4. rails s
-
-* The Getting Started Guide: http://guides.rubyonrails.org/getting_started.html
-* Ruby on Rails Tutorial Book: http://www.railstutorial.org/
+xxxxxxxxxxxxxx
