@@ -23,14 +23,13 @@ before_filter :config_opentok,:except => [:index]
 
   def party
     @room = Room.find(params[:id])
-
-    @tok_token = @opentok.generate_token :session_id =>@room.sessionId     
+    @tok_token = @opentok.generate_token :session_id =>@room.sessionId
   end
 
   private
   def config_opentok
     if @opentok.nil?
-     @opentok = OpenTok::OpenTokSDK.new 22329432, "f03a315fc996dff095d697eb7949cbec1474c6ba"
+     @opentok = OpenTok::OpenTokSDK.new 45281572, "cfe31974ff35ceee061ae00a0c0b46b6f37c0189"
     end
   end
 end
